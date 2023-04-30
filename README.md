@@ -3,6 +3,7 @@
 MindMentor is a mental health chatbot designed to provide support and advice for individuals dealing with depression and anxiety. It utilizes the Rasa framework and GPT-3.5 Turbo to generate meaningful and empathetic responses based on user queries.
 
 **Conversation Thread**
+
 Open the html file in the web browser
 
 **Features**
