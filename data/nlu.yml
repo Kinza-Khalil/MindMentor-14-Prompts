@@ -1,0 +1,26 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey
+
+- intent: ask_depression
+  examples: |
+    - I'm feeling depressed
+    - I think I have depression
+    - What are the symptoms of depression?
+
+- intent: ask_anxiety
+  examples: |
+    - I'm feeling anxious
+    - I think I have anxiety
+    - What are the symptoms of anxiety?
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - Goodbye
+    - See you later

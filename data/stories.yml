@@ -1,0 +1,16 @@
+version: "2.0"
+
+stories:
+- story: greet and ask depression
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_depression
+  - action: action_mental_health_advice
+
+- story: greet and ask anxiety
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_anxiety
+  - action: action_mental_health_advice

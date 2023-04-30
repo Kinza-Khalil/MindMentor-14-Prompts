@@ -1,0 +1,28 @@
+version: '2.0'
+
+intents:
+- greet
+- ask_depression
+- ask_anxiety
+- goodbye
+
+entities:
+- symptom
+
+slots:
+  symptom:
+    type: text
+
+responses:
+  utter_greet:
+  - text: "Hello! I'm MindMentor. How can I help you today?"
+
+  utter_goodbye:
+  - text: "Goodbye! If you have any more questions, feel free to ask."
+
+actions:
+- action_mental_health_advice
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
