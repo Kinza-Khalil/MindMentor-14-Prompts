@@ -1,1 +1,0 @@
-# MindMentor-14-Prompts
